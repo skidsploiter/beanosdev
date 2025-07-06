@@ -70,7 +70,7 @@ IF /I "%RUN_QEMU%"=="Y" (
     IF %ERRORLEVEL% NEQ 0 (
         echo WARNING: QEMU not found in PATH. Cannot launch automatically.
         echo Please install QEMU or run it manually.
-        echo Download QEMU from: https://www.qemu.org/download/
+        echo Download QEMU from: https://qemu.weilnetz.de/w64/
     ) ELSE (
         %QEMU_CMD%
     )
